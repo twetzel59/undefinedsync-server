@@ -3,7 +3,9 @@ Central control server for the Minecraft server sync app
 
 This is to handle version control for this application: https://github.com/twetzel59/undefinedsync.
 
-## How it works
+If you want to use this, see **How to use** below.
+
+# How it works
 
 First, see my repo linked above, or this will make little sense :)
 The Sync app has a rather unusual articecture. The central server is being hosted on 000webhost, because it is lightweight and free. However, they do not allow using their service to share large files...
@@ -35,8 +37,14 @@ undefinedSync_error0;
 ```
 with a human-readable error message concatenated (following the semicolon).
 
-# Reuse
+# How to use
 
+## Setup
+I'm using whatever version (and subset?) of PHP that 000webhost provides. To set up, I'd recommend PHP 4 or 5.
+
+**You must create a file called checkout_status next to the PHP files. For now, I have decided not to have the code create it. This may change in the future. Make sure PHP has read/write permission for said file.**
+
+## Legal
 If this is of use to you, go ahead and use it. You could even use the Sync client and have this system for any kind of Minecraft server, game server, or server in general.
 
 No credit or attribution is necessary for this server (it is released into the Public Domain). Keep in mind that as of the last update to this README, the client is GPL-3.0 licensed — only because of a font used in the logo and because Nimble as of writing has only a few license options :D
