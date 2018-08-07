@@ -5,7 +5,7 @@ This is to handle version control for this application: https://github.com/twetz
 
 ## How it works
 
-First, see my repo linked above, or this will make little sense.
+First, see my repo linked above, or this will make little sense :)
 The Sync app has a rather unusual articecture. The central server is being hosted on 000webhost, because it is lightweight and free. However, they do not allow using their service to share large files...
 
 In order to distribute the server's worlds and config files, I rely on users installing the Google Drive client. It's great for syncing the large files, and runs in the background relatively seamlessly. We also then have all the benefits of Google Drive, including extensive versioning history, sharingm and industry standard security.
@@ -33,11 +33,11 @@ If the server encounters an error it replies
 ```
 undefinedSync_error0;
 ```
-with a human-readable error message concatenated (following the semicolon)
+with a human-readable error message concatenated (following the semicolon).
 
 # Reuse
 
-If this of use to you, go ahead and use it. You could even use the Sync client and have this system for any kind of Minecraft server, game server, or server in general.
+If this is of use to you, go ahead and use it. You could even use the Sync client and have this system for any kind of Minecraft server, game server, or server in general.
 
 No credit or attribution is necessary for this server (it is released into the Public Domain). Keep in mind that as of the last update to this README, the client is GPL-3.0 licensed — only because of a font used in the logo and because Nimble as of writing has only a few license options :D
 
