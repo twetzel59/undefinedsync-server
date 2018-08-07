@@ -39,4 +39,10 @@ with a human-readable error message concatenated (following the semicolon)
 
 If this of use to you, go ahead and use it. You could even use the Sync client and have this system for any kind of Minecraft server, game server, or server in general.
 
-No credit or attribution is necessary for this server (it is released into the Public Domain).
+No credit or attribution is necessary for this server (it is released into the Public Domain). Keep in mind that as of the last update to this README, the client is GPL-3.0 licensed — only because of a font used in the logo and because Nimble as of writing has only a few license options :D
+
+You can change and redistribute code (and binaries) for both the client and the server (see the client's repo for up-to-date and official licensing information).
+
+And if someone actually uses this to make use of a previously-seemingly-unuseful OUYA console, I'll be overjoyed, LOL.
+
+Happy Hacking!
