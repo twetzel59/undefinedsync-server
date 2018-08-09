@@ -40,9 +40,9 @@ with a human-readable error message concatenated (following the semicolon).
 # How to use
 
 ## Setup
-I'm using whatever version (and subset?) of PHP that 000webhost provides. To set up, I'd recommend PHP 4 or 5.
+I'm using whatever version (and subset?) of PHP that 000webhost provides. To set up, I'd recommend PHP 4 or 5. MySQL is required. For now the code logs in to the database as ``localhost``.
 
-**You must create a file called checkout_status next to the PHP files. For now, I have decided not to have the code create it. This may change in the future. Make sure PHP has read/write permission for said file.**
+**This server is still experimental. Use at your own risk!**
 
 ## Legal
 If this is of use to you, go ahead and use it. You could even use the Sync client and have this system for any kind of Minecraft server, game server, or server in general.
